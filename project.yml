@@ -1,0 +1,48 @@
+# XcodeGen 工程描述 —— 官方 CocoaPods 集成方式
+# 用法：xcodegen generate && pod install，之后用 IPC_Demo_iOS.xcworkspace 打开
+name: IPC_Demo_iOS
+options:
+  bundleIdPrefix: com.ipc.test
+  deploymentTarget:
+    iOS: "13.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.ipc.test.set
+    DEVELOPMENT_TEAM: V2TAJKB5WT
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+targets:
+  IPC_Demo_iOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: IPC_Demo_iOS
+    info:
+      path: Info.plist
+      properties:
+        UILaunchScreen: {}
+        NSMicrophoneUsageDescription: "对讲需要访问麦克风"
+        NSCameraUsageDescription: "二维码配网 / 本地相册展示需要访问相机"
+        NSPhotoLibraryUsageDescription: "浏览与保存本地截图 / 录像"
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        CFBundleDisplayName: "IPC Demo"
+        # 声明支持横屏（预览全屏需要）；具体是否横屏由各 VC 的 supportedInterfaceOrientations 决定
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+schemes:
+  IPC_Demo_iOS:
+    build:
+      targets:
+        IPC_Demo_iOS: all
+    run:
+      config: Debug
+    archive:
+      config: Release

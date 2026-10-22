@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A5062EF13D45E56B2D729D /* EzConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A0C1D8FA01D5DF9A2C4CF1 /* EzConfigViewController.swift */; };
+		07F5C96582B8638C773F7573 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2AA59DC554D73880609B4 /* RegisterViewController.swift */; };
+		0A022A34A2B46E5AC22834A7 /* OfflineLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0BAA82AF522E76C383AEA /* OfflineLogViewController.swift */; };
+		0E8D6FF4BBDEB6DE66EFFFD9 /* DoorbellCallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974996900CCC9DB3FE544B68 /* DoorbellCallManager.swift */; };
+		27DDEFA8821E2B3E2F20D7C0 /* CameraAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B5E0E7DF7ACC57DA32784F /* CameraAlbumViewController.swift */; };
+		2888EE179A1F027D1234615E /* DeviceCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1456846D80C6AFF23BC04D8 /* DeviceCapability.swift */; };
+		2FE3C38DD6169A3D9580D9F8 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700936975380FFEB2E0EE146 /* SessionManager.swift */; };
+		46481FC8CE3A57311908E1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E146EE5DE888E4C202C6C53F /* Assets.xcassets */; };
+		5F1EA2300596ADD0CAB8ED6F /* QrConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14E3E4875F1459934F6F92 /* QrConfigViewController.swift */; };
+		63C5F85A13B17E8198A63A7A /* CameraCloudStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D063E2942A4164AE620B963 /* CameraCloudStorageViewController.swift */; };
+		694FBADFBBF81D494E39456B /* TuyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F26AD0C3D3C8C2BF7B8F6 /* TuyaConfig.swift */; };
+		75938C1963D824B2661154D8 /* Pods_IPC_Demo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD478A645EC4DBBDB1D05442 /* Pods_IPC_Demo_iOS.framework */; };
+		7A2D81ADBFAAA93885F8B7AA /* CameraSdManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658BCF377C27A8CB5E48132 /* CameraSdManageViewController.swift */; };
+		7A42D8A55B183B331A13D98A /* CameraPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F7A6914444F6B0D46470D /* CameraPlaybackViewController.swift */; };
+		80990D98A52566925A14F076 /* DPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE20110A16DAED87597FA9 /* DPConstants.swift */; };
+		81A640434A1DC9A62B7B814B /* CameraPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7D887ED45159C65C18EC6 /* CameraPanelViewController.swift */; };
+		852C3B0090B516D721885474 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C7540C01E419E5B3754A20 /* MainViewController.swift */; };
+		8F9C16EE0437BDC9019D4E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52576E1E5D5A64612D4344 /* AppDelegate.swift */; };
+		9A9A8B8CBD65B3E29F4A5FC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E6C4700095B60BE1F5284B /* LoginViewController.swift */; };
+		A13FB4B9D5A250B525436213 /* UI+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FA1358CB7886C675A01B8 /* UI+Extensions.swift */; };
+		A7578A062678D796AEE40B83 /* IpcLocalMediaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803D90B948548B0F4FDF20C7 /* IpcLocalMediaHelper.swift */; };
+		C5CE05180C34AD88206B563B /* ApConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AED47CCC47CAE342057D7F /* ApConfigViewController.swift */; };
+		CAB3A30427632D4635508547 /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B380F0757CA5379CAF47ECF /* DeviceListViewController.swift */; };
+		D5AF8A75D0F7D0E80D9129A8 /* CameraMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52F62C530D3C835578F82A /* CameraMessageViewController.swift */; };
+		D9E57431E7E2BE3639A5D831 /* CameraDoorBellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CBB4D4C57C42A1D065EDA4 /* CameraDoorBellViewController.swift */; };
+		ECC1EE1574666DC920086ADF /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC73BE495B651131F40C71 /* CameraController.swift */; };
+		EFFDB1604AE3C33EDEB67A6A /* CameraVideoMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB94FA5054D217AB710E0B31 /* CameraVideoMessageViewController.swift */; };
+		F433975408EA4CE984143948 /* CreateHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9718F6E672C6B9D6BF9965 /* CreateHomeViewController.swift */; };
+		F4A7F4510044EC9F8B453F3E /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5796B3CF08C3F32A2F0136E /* HomeListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0417899F63DD8EF4715ADE4A /* IPC_Demo_iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = IPC_Demo_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0658BCF377C27A8CB5E48132 /* CameraSdManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSdManageViewController.swift; sourceTree = "<group>"; };
+		08A0C1D8FA01D5DF9A2C4CF1 /* EzConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzConfigViewController.swift; sourceTree = "<group>"; };
+		0D063E2942A4164AE620B963 /* CameraCloudStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCloudStorageViewController.swift; sourceTree = "<group>"; };
+		187F7A6914444F6B0D46470D /* CameraPlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPlaybackViewController.swift; sourceTree = "<group>"; };
+		1A52576E1E5D5A64612D4344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B380F0757CA5379CAF47ECF /* DeviceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
+		1BDE20110A16DAED87597FA9 /* DPConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPConstants.swift; sourceTree = "<group>"; };
+		1DC0BAA82AF522E76C383AEA /* OfflineLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineLogViewController.swift; sourceTree = "<group>"; };
+		20AED47CCC47CAE342057D7F /* ApConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApConfigViewController.swift; sourceTree = "<group>"; };
+		25E6C4700095B60BE1F5284B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		26BE544E5AFED2CF387770E5 /* Pods-IPC_Demo_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPC_Demo_iOS.debug.xcconfig"; path = "Target Support Files/Pods-IPC_Demo_iOS/Pods-IPC_Demo_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3F26AD0C3D3C8C2BF7B8F6 /* TuyaConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuyaConfig.swift; sourceTree = "<group>"; };
+		38C7540C01E419E5B3754A20 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		52FC73BE495B651131F40C71 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		700936975380FFEB2E0EE146 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		71CBB4D4C57C42A1D065EDA4 /* CameraDoorBellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDoorBellViewController.swift; sourceTree = "<group>"; };
+		72B5E0E7DF7ACC57DA32784F /* CameraAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAlbumViewController.swift; sourceTree = "<group>"; };
+		803D90B948548B0F4FDF20C7 /* IpcLocalMediaHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpcLocalMediaHelper.swift; sourceTree = "<group>"; };
+		80C7D887ED45159C65C18EC6 /* CameraPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPanelViewController.swift; sourceTree = "<group>"; };
+		974996900CCC9DB3FE544B68 /* DoorbellCallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorbellCallManager.swift; sourceTree = "<group>"; };
+		A1456846D80C6AFF23BC04D8 /* DeviceCapability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCapability.swift; sourceTree = "<group>"; };
+		C7D2AA59DC554D73880609B4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CD478A645EC4DBBDB1D05442 /* Pods_IPC_Demo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IPC_Demo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF14E3E4875F1459934F6F92 /* QrConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrConfigViewController.swift; sourceTree = "<group>"; };
+		D01FA1358CB7886C675A01B8 /* UI+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+Extensions.swift"; sourceTree = "<group>"; };
+		D5796B3CF08C3F32A2F0136E /* HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewController.swift; sourceTree = "<group>"; };
+		DD52F62C530D3C835578F82A /* CameraMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraMessageViewController.swift; sourceTree = "<group>"; };
+		DFA8CD15257BB9B964D2D908 /* Pods-IPC_Demo_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPC_Demo_iOS.release.xcconfig"; path = "Target Support Files/Pods-IPC_Demo_iOS/Pods-IPC_Demo_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E146EE5DE888E4C202C6C53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED9718F6E672C6B9D6BF9965 /* CreateHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHomeViewController.swift; sourceTree = "<group>"; };
+		FB94FA5054D217AB710E0B31 /* CameraVideoMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVideoMessageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A96DDEDD8A73F47DCEF2F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75938C1963D824B2661154D8 /* Pods_IPC_Demo_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018265695B3C7B525A528B3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26BE544E5AFED2CF387770E5 /* Pods-IPC_Demo_iOS.debug.xcconfig */,
+				DFA8CD15257BB9B964D2D908 /* Pods-IPC_Demo_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0389D60456E66541719B317F /* IPC_Demo_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E146EE5DE888E4C202C6C53F /* Assets.xcassets */,
+				90BC260E291B94B06FC9DDF0 /* Account */,
+				E64571623F012FA5B408442B /* App */,
+				7940B56F0B16BD3469E81C93 /* Common */,
+				B0628487C50621A303DB7C42 /* Config */,
+				12E1F96D48860231705F6CDB /* Home */,
+				6C5F06219320ADE5FA0B45B1 /* IPC */,
+				9C004E4D8DD1EE1BF191144C /* Models */,
+			);
+			path = IPC_Demo_iOS;
+			sourceTree = "<group>";
+		};
+		0C7E723171B3F7AFAA85B7E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0417899F63DD8EF4715ADE4A /* IPC_Demo_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E1F96D48860231705F6CDB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ED9718F6E672C6B9D6BF9965 /* CreateHomeViewController.swift */,
+				1B380F0757CA5379CAF47ECF /* DeviceListViewController.swift */,
+				D5796B3CF08C3F32A2F0136E /* HomeListViewController.swift */,
+				38C7540C01E419E5B3754A20 /* MainViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		64A71157719000F76AB3775C = {
+			isa = PBXGroup;
+			children = (
+				0389D60456E66541719B317F /* IPC_Demo_iOS */,
+				0C7E723171B3F7AFAA85B7E3 /* Products */,
+				018265695B3C7B525A528B3A /* Pods */,
+				E5A6C6FF315EA4B2351F91DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C5F06219320ADE5FA0B45B1 /* IPC */ = {
+			isa = PBXGroup;
+			children = (
+				72B5E0E7DF7ACC57DA32784F /* CameraAlbumViewController.swift */,
+				0D063E2942A4164AE620B963 /* CameraCloudStorageViewController.swift */,
+				52FC73BE495B651131F40C71 /* CameraController.swift */,
+				71CBB4D4C57C42A1D065EDA4 /* CameraDoorBellViewController.swift */,
+				DD52F62C530D3C835578F82A /* CameraMessageViewController.swift */,
+				80C7D887ED45159C65C18EC6 /* CameraPanelViewController.swift */,
+				187F7A6914444F6B0D46470D /* CameraPlaybackViewController.swift */,
+				0658BCF377C27A8CB5E48132 /* CameraSdManageViewController.swift */,
+				FB94FA5054D217AB710E0B31 /* CameraVideoMessageViewController.swift */,
+				974996900CCC9DB3FE544B68 /* DoorbellCallManager.swift */,
+				1DC0BAA82AF522E76C383AEA /* OfflineLogViewController.swift */,
+			);
+			path = IPC;
+			sourceTree = "<group>";
+		};
+		7940B56F0B16BD3469E81C93 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1BDE20110A16DAED87597FA9 /* DPConstants.swift */,
+				803D90B948548B0F4FDF20C7 /* IpcLocalMediaHelper.swift */,
+				2F3F26AD0C3D3C8C2BF7B8F6 /* TuyaConfig.swift */,
+				D01FA1358CB7886C675A01B8 /* UI+Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		90BC260E291B94B06FC9DDF0 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				25E6C4700095B60BE1F5284B /* LoginViewController.swift */,
+				C7D2AA59DC554D73880609B4 /* RegisterViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		9C004E4D8DD1EE1BF191144C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1456846D80C6AFF23BC04D8 /* DeviceCapability.swift */,
+				700936975380FFEB2E0EE146 /* SessionManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0628487C50621A303DB7C42 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				20AED47CCC47CAE342057D7F /* ApConfigViewController.swift */,
+				08A0C1D8FA01D5DF9A2C4CF1 /* EzConfigViewController.swift */,
+				CF14E3E4875F1459934F6F92 /* QrConfigViewController.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E5A6C6FF315EA4B2351F91DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD478A645EC4DBBDB1D05442 /* Pods_IPC_Demo_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E64571623F012FA5B408442B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1A52576E1E5D5A64612D4344 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D503B407186E14DC5AD40247 /* IPC_Demo_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50666B6971B52E3505538A7 /* Build configuration list for PBXNativeTarget "IPC_Demo_iOS" */;
+			buildPhases = (
+				AEA6F2FF844F09E6EF72308A /* [CP] Check Pods Manifest.lock */,
+				32EE1FD9DBDEE4ECA427B246 /* Sources */,
+				B3B5B933415AC52A5F65E78E /* Resources */,
+				8A96DDEDD8A73F47DCEF2F4D /* Frameworks */,
+				24D2AE7290356D59129AC9CA /* [CP] Embed Pods Frameworks */,
+				DDC1F564542383933B813BC2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPC_Demo_iOS;
+			productName = IPC_Demo_iOS;
+			productReference = 0417899F63DD8EF4715ADE4A /* IPC_Demo_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6FA0660329D0A3DB44709A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D503B407186E14DC5AD40247 = {
+						DevelopmentTeam = V2TAJKB5WT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7E3CDF90E2FA64E2CC7B32B /* Build configuration list for PBXProject "IPC_Demo_iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 64A71157719000F76AB3775C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0C7E723171B3F7AFAA85B7E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D503B407186E14DC5AD40247 /* IPC_Demo_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3B5B933415AC52A5F65E78E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46481FC8CE3A57311908E1AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24D2AE7290356D59129AC9CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IPC_Demo_iOS/Pods-IPC_Demo_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IPC_Demo_iOS/Pods-IPC_Demo_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IPC_Demo_iOS/Pods-IPC_Demo_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA6F2FF844F09E6EF72308A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPC_Demo_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC1F564542383933B813BC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IPC_Demo_iOS/Pods-IPC_Demo_iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IPC_Demo_iOS/Pods-IPC_Demo_iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IPC_Demo_iOS/Pods-IPC_Demo_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32EE1FD9DBDEE4ECA427B246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE05180C34AD88206B563B /* ApConfigViewController.swift in Sources */,
+				8F9C16EE0437BDC9019D4E93 /* AppDelegate.swift in Sources */,
+				27DDEFA8821E2B3E2F20D7C0 /* CameraAlbumViewController.swift in Sources */,
+				63C5F85A13B17E8198A63A7A /* CameraCloudStorageViewController.swift in Sources */,
+				ECC1EE1574666DC920086ADF /* CameraController.swift in Sources */,
+				D9E57431E7E2BE3639A5D831 /* CameraDoorBellViewController.swift in Sources */,
+				D5AF8A75D0F7D0E80D9129A8 /* CameraMessageViewController.swift in Sources */,
+				81A640434A1DC9A62B7B814B /* CameraPanelViewController.swift in Sources */,
+				7A42D8A55B183B331A13D98A /* CameraPlaybackViewController.swift in Sources */,
+				7A2D81ADBFAAA93885F8B7AA /* CameraSdManageViewController.swift in Sources */,
+				EFFDB1604AE3C33EDEB67A6A /* CameraVideoMessageViewController.swift in Sources */,
+				F433975408EA4CE984143948 /* CreateHomeViewController.swift in Sources */,
+				80990D98A52566925A14F076 /* DPConstants.swift in Sources */,
+				2888EE179A1F027D1234615E /* DeviceCapability.swift in Sources */,
+				CAB3A30427632D4635508547 /* DeviceListViewController.swift in Sources */,
+				0E8D6FF4BBDEB6DE66EFFFD9 /* DoorbellCallManager.swift in Sources */,
+				04A5062EF13D45E56B2D729D /* EzConfigViewController.swift in Sources */,
+				F4A7F4510044EC9F8B453F3E /* HomeListViewController.swift in Sources */,
+				A7578A062678D796AEE40B83 /* IpcLocalMediaHelper.swift in Sources */,
+				9A9A8B8CBD65B3E29F4A5FC3 /* LoginViewController.swift in Sources */,
+				852C3B0090B516D721885474 /* MainViewController.swift in Sources */,
+				0A022A34A2B46E5AC22834A7 /* OfflineLogViewController.swift in Sources */,
+				5F1EA2300596ADD0CAB8ED6F /* QrConfigViewController.swift in Sources */,
+				07F5C96582B8638C773F7573 /* RegisterViewController.swift in Sources */,
+				2FE3C38DD6169A3D9580D9F8 /* SessionManager.swift in Sources */,
+				694FBADFBBF81D494E39456B /* TuyaConfig.swift in Sources */,
+				A13FB4B9D5A250B525436213 /* UI+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B35DD9319BCCE6313F85B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BE544E5AFED2CF387770E5 /* Pods-IPC_Demo_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E8D7E3C3E2EB8F2A44066A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V2TAJKB5WT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipc.test.set;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27DA4207F535C66B8AAF745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA8CD15257BB9B964D2D908 /* Pods-IPC_Demo_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1B048F028130845E0557176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V2TAJKB5WT;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipc.test.set;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E3CDF90E2FA64E2CC7B32B /* Build configuration list for PBXProject "IPC_Demo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8D7E3C3E2EB8F2A44066A0 /* Debug */,
+				C1B048F028130845E0557176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F50666B6971B52E3505538A7 /* Build configuration list for PBXNativeTarget "IPC_Demo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B35DD9319BCCE6313F85B36 /* Debug */,
+				A27DA4207F535C66B8AAF745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6FA0660329D0A3DB44709A1 /* Project object */;
+}
