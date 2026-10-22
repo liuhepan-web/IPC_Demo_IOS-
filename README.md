@@ -1,6 +1,6 @@
 # IPC Demo (iOS)
 
-涂鸦 **Smart Life App SDK 5.0 + 摄像机 IPC SDK** 演示工程（Swift 5，Bundle ID `com.ipc.test.set`）。
+涂鸦 **Smart Life App SDK  + 摄像机 IPC SDK** 演示工程（Swift 5，Bundle ID `com.ipc.test.set`）。
 
 面向开发者的统一入口：克隆本仓库 → 按下方步骤跑通 Demo → 对照文档集成到自有 App。
 
